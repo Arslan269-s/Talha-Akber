@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 94%;
+	max-width: 94% !important;
+}
+
+.destacados {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.content-icon i {
+    font-size: 71px;
+    color: #fff;
+    background-color: #00C4E8;
+    border-radius: 50%;
+    padding: 19px 20px 23px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 109px;
+    margin: 0px auto;
+	transition: 0.3s;
+}
+
+.content-icon:hover i {
+	transform: scale(1.05);
+}
+
+.content2 {
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 0 0.3px #f6f5f4;
+    border-radius: 8px;
+    height: 100%; 
+    margin-top: 50px;
+}
+
+.content-img {
+	position: relative;
+	transition: all .4s;
+}
+
+.content-img img {
+	width: 100%;
+}
+
+.content-img {
+	position: relative;
+	
+}
+
+.content-img:hover {
+	transform: scale(1.08);
+}
+
+button.dest1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    padding: 8px 35px;
+	background-color: #00C5E8;
+	color: #fff;
+	border: 0;
+	text-align: left;
+}
+
+.wrap {
+	background-color: #F6F5F4;
+	padding: 100px 0px ;
+}
+
+button.dest {
+    display: block;
+    padding: 15px 30px;
+    margin: 0px auto 30px auto;
+    background: transparent;
+    border: 2px solid;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+	position: relative;
+	text-align: center;	
+	transition: all 0.4s;
+}
+
+button.dest:hover {
+	background-color: #fff;
+	color: #00C4E8;
+}
+
+button.dest::before {
+	position: absolute;
+	content: "";
+	height: 10px;
+	width: 10px;
+	color: red;
+	border-radius: 50%;
+	top: -5px;
+	left: 50%;
+}
+
+.content-heading {
+    padding: 0px 10px 20px 10px;
+	margin-top: 40px;
+}
+
+.content-heading h2 {
+	color: #000;
+	font-size: 28px;
+	font-weight: 500;
+	
+
+}
+
+.content-heading h4 {
+	color: #00C5E8;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.nafta {
+	margin-left: 8px;
+}
+
+/* .content-icon img {
+    width: 30%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+} */
+
+/* .row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display:         flex;
+  } */
+
+  .row-eq-height {
+    display: flex;
+    flex-wrap: wrap;
+	align-items: center;
+}
